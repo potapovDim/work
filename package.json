@@ -1,0 +1,17 @@
+{
+  "name": "junior",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:junior": "mocha \"__specs__/junior.spec.js\" --timeout 10000",
+    "test:middle": "mocha \"__specs__/middle.spec.js\" --timeout 10000",
+    "test:senior": "mocha \"__specs__/senior.spec.js\" --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
