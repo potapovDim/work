@@ -59,7 +59,7 @@ describe('Senior specs', () => {
     Object.freeze(obj1)
     Object.freeze(obj2)
 
-    function deepMergeObejcts(target, source) {
+    function deepMergeObejcts(obj1, obj2) {
       // implementation
     }
 
@@ -77,6 +77,5 @@ describe('Senior specs', () => {
         d: 1
       }
     })
-
   })
 })
